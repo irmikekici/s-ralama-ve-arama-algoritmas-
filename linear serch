@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	int aranan;
+	int i;
+	int N;
+	printf("Kac adet sayi uretilecek\n");
+	scanf("%d",&N);
+	
+	int dizi[N];
+	printf("Dizi elemanlari\n");
+	for(i=0;i<N;i++)
+	{
+		scanf("%d",&dizi[i]);
+	}
+	printf("Dizi elemanlarim:\n");
+
+	for(i=0;i<N;i++)
+	{
+		printf("%d\n",dizi[i]);
+	}
+	
+	printf("Lutfen aranan sayiyi giriniz\n");
+	scanf("%d",&aranan);
+	
+	for(i=0;i<N;i++)
+	{
+		if(dizi[i]==aranan)
+		{
+			printf("%d sayisi %d. sirada bulundu\n",aranan,i+1);
+			break;
+		}
+	}
+	
+	if(i==N)
+	{
+		printf("%d bulunamadi\n",aranan);
+	}
+	
+	return 0;
+}
