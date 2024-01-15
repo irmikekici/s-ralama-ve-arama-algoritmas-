@@ -3,7 +3,7 @@
 
 int main()
 {
-	int aranan;
+	int aranan; //linear serach algoritmasinda aranan sayi dizide teker teker sirayla aranir
 	int i;
 	int N;
 	printf("Kac adet sayi uretilecek\n");
