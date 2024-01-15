@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+/*pivot eleman secilir ve bir soldan bir sagdan kiyaslama yapilir pivottan kucuk olanlar sol tarafa pivottan buyuk olanlar pivotun sagina gecer ve pivot olarak 
+  diger siradaki eleman secilir ve tekrardan bir sagdan bir soldan kiyaslamalar yapilir ve bu islem butun diiziyi siralama islemi bitene kadar devam eder*/
 void quicksort(int D[10],int ilk,int son)  
 {
 	int gecici;
