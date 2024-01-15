@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+/*binary search'de teker teker aramaktansa orta eleman a gore kiyaslama yaparak arama yapariz
+eger aranan eleman orta elemana esitse direkt geri donut aliriz,egeer degilse aranan eleman ortadaki elemana gore buyuk
+mu yoksa kucuk mu ona bakar.eğer aranan eleman ortadaki elemandan buyukse ortadaki elemanin solundaki sayilar silinir ve yeni 
+orta eleman kalan sayilarin ortasindan secilir.ve bu islem aranan sayiyi bulana kadar devam eder.eger bulunamazsa sayinin bulunamadigini soyler*/
 int main()
 {
 	int ilk,son,orta,aranan;
