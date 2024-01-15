@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+int main() /*dizideki ilk elemani tutar sonra dizideki diğer elemanlari tutulan eleman ile karsilasitiri eger diger elemanlardan herhangi biri 
+            ilk basta tutulan elemandan da kucuse en son tutulan eleman tutulur ve bu islem devam edilir dizinin sonuna kadar tutuşan elemandan 
+            daha kucuk bir eleman bulubnamazsa tutulan eleman en kucuk eleman olarak dizinin en basina alinir.bir sonraki adim ise en basa alinan
+            sayinin dizideki diger elemana gecer.ve onceden yazilan butun islemler tekrar edilir.butun dizi siraya sokulana kadara bu islemler devam eder.*/
 {
     int i,j;
     int konum;
