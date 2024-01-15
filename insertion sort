@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+int main() //insertion sort algoritmasinda yer degisikligi sonrasi onceki sayilar da kontorl edilir ve yeni yer degistirilmesi gereken sayi gelene kadar devam eder,yeni bkucuk sayi geldiginde ayni islem tekrarlanır
 {
     int N;
     int i;
