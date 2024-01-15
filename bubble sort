@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 int main()
-{
-    int N;
+{  
+    int N; //bubble sort algoritmasinda teker teker yer degistirme islemi ile siralama yapilir
     int i;
     int j,gecici;
     printf("Kac adet sayi uretilecek\n");
